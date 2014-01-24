@@ -1,0 +1,258 @@
+body {
+	background: #FFF url(../images/bg_body.jpg);
+	color: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+a { color: #222; }
+
+/* Start of Main Navigation */
+nav.main {
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #333;
+	overflow: auto;
+	line-height: 68px;
+}
+	nav.main ul li {
+		float: left;
+	}
+		nav.main ul li a {
+			color: #ccc;
+			text-decoration: none;
+			padding: 10px 15px 8px;
+			display: block;
+			-webkit-transition:background-color 0.7s ease-in;  
+   			-moz-transition:background-color 0.7s ease-in;  
+  			 -o-transition:background-color 0.7s ease-in;  
+   			transition:background-color 0.7s ease-in;
+		}
+			nav.main li a:hover {
+				background: #222; 
+				color: #FFF;
+			}
+			nav.main ul li.active a {
+				color: #FFF;
+				font-weight: bold;
+				background: #3489c6; 
+			}
+
+/* Extra Nav Stuff */
+#more_nav li {
+	background: #38a2e0;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* Start of main content */
+#main {
+	background: url(../images/bg_gradient.png) repeat-x;
+}
+.wrapper {
+	max-width: 960px;
+	margin: auto;
+	padding: 0 5%;
+}
+	header h1 {
+		background: url(../images/logo.png) no-repeat;
+		display: block;
+		text-indent: -9999em;
+		height: 54px;
+		width: 291px;
+		float: left;
+	}
+
+	/* Social Media Stuff */
+	header ul {
+		float: right;
+		margin-top: 25px;
+	}
+		header ul li {
+			float: left;
+			padding-left: 10px;
+		}
+			header ul li a {
+				text-decoration: none;
+				color: #999;
+				-webkit-transition:color 0.7s ease-in;  
+   				-moz-transition:color 0.7s ease-in;  
+  				-o-transition:color 0.7s ease-in;  
+   				transition:color 0.7s ease-in;
+			}
+			header ul li a:hover {
+				color: #222;
+			}
+
+			.icon-linkedin-sign:hover {
+				color: #069;
+			}
+
+			.icon-twitter-sign:hover {
+				color: #0084B4;
+			}
+
+			.icon-facebook-sign:hover {
+				color: #3b5998;
+			}
+
+			.icon-rss-sign:hover {
+				color: #FA9B39;
+			}
+
+
+#banner img {
+		-webkit-box-shadow: 0 20px 38px -16px black;
+  	    -moz-box-shadow: 0 20px 38px -16px black;
+	    box-shadow: 0 20px 38px -16px black;
+}
+
+#welcome_area { 
+	background: #ddd;
+	border: 1px solid #b8b8b8;
+	margin: 40px 0;
+	font-size: 18px;
+	padding: 20px;
+	line-height: 24px;
+	-webkit-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+	#welcome_area p {
+		width: 70%;
+		float: left;
+	}
+
+	.button {
+		background: #38a2e0;
+		color: #FFF;
+		width: 200px;
+		padding: 5px;
+		float: right;
+		-webkit-border-radius: 5px;
+   		border-radius: 5px;
+   		text-align: center;
+   		border: 1px solid rgba(0,0,0,0.3);
+   		font-size: 14px;
+   		line-height: 18px;
+		-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5), 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5), 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+        text-decoration: none;
+        display: block;
+	}
+		.button strong {
+			display: block;
+			font-size: 16px;
+		}
+		.button:hover {
+			background: #de0000;
+		}
+#main_blocks {
+	margin-bottom: 40px;
+	font-size: 12px;
+
+}
+	#main_blocks article {
+		width: 30%;
+	}
+		#home_box_1 { float: left }
+		#home_box_2 { margin: auto }
+		#home_box_3 { float: right }
+
+		#main_blocks article p {
+			padding: 15px 0;
+			line-height: 16px;
+		}
+		#main_blocks article img {
+			-webkit-box-shadow: 0 5px 18px -7px black
+	   		-moz-box-shadow: 0 5px 18px -7px black;
+		    box-shadow: 0 5px 18px -7px black;
+		}
+		#main_blocks article h2 {
+			font-size: 24px;
+			padding-bottom: 20px;
+		}
+		#main_blocks article a {
+			color: #38a2e0;
+			text-decoration: none;
+		}
+		#main_blocks article a:hover {
+			text-decoration: underline;
+		}
+
+/* Start of footer duh */
+#footer_wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+footer {
+	color: #444;
+	clear: both;
+	background: #000;
+	overflow: hidden;
+	padding: 50px 25px;
+	line-height: 21px;
+}
+	footer a { 
+		color: #666;
+		text-decoration: none;
+	}
+		footer a:hover {
+			text-decoration: underline;
+		}
+	footer h3 { 
+		color: #bbb;
+		font-size: 18px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #333;
+	}
+
+	footer section ul li {
+		padding: 5px 0;
+		border-bottom: 1px solid #333;
+	}
+	/* Footer Columns */ 
+	footer #blogroll {
+		width: 23%;
+		float: left;
+	}
+	footer #text_widget {
+		width: 47%;
+		margin: auto;
+	}
+		footer #text_widget h3 {
+			margin-bottom: 5px;
+		}
+	footer #meta_widget {
+		float: right;
+		width: 23%;
+	}
+	/* Footer Copyright */
+	footer #copyright {
+		clear: both;
+		text-align: left;
+		padding-top: 25px;
+	}
+	footer #theme {
+		float: right;
+	}
+	footer #theme a {
+		color: #0096d5;
+	}
+
+/* Clearfix hack, using .group is more semantic than .clearfix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

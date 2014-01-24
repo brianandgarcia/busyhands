@@ -1,0 +1,96 @@
+img {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 55em) {
+	nav.main {
+		line-height: 20px;
+	}
+	#welcome_area p {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 45em) {
+	#home_box_1,
+	#home_box_2,
+	#home_box_3 {
+		float: none;
+	}
+	#main_blocks article {
+		width: 100%;
+		clear: both;
+		padding-bottom: 50px;
+	}
+	#main_blocks img {
+		float: left;
+		margin-right: 5px;
+	}
+	#welcome_area p { width: 55% }
+}
+
+@media screen and (max-width: 35em) {
+	nav.main {
+		font-size: 12px;
+	}
+	header h1 {
+		float: none;
+		margin: 10px auto;
+	}
+	header .social_menu {
+		float: none;
+		margin: 5px auto;
+		width: 255px;
+	}
+	header ul li {
+		padding-left: 0;
+	}
+	.button {
+		float: none;
+		width: 100%;
+	}
+	#main_blocks img {
+		float: none;
+	}
+	footer #blogroll,
+	footer #text_widget,
+	footer #meta_widget
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	nav ul li a {
+		padding: 10px 11px 8px;
+	}
+	#main {
+		background: transparent;
+	}
+	#main_blocks {
+		text-align: center;
+	}
+	#main_blocks article p {
+		font-size: 14px;
+	}
+	#welcome_area {
+		margin: 20px 0;
+		text-align: center;
+	}
+	#welcome_area p {
+		float: none;
+		width: 100%;
+		padding-bottom: 25px;
+	}
+	footer {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	#banner {
+		display: none;
+	}
+	nav.main ul li {
+		float: none;
+	}
+}
